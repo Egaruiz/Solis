@@ -1,0 +1,147 @@
+@media all {
+
+  img, abbr {border: 0;}
+  input, textarea {font: 100%/1.3 Arial,Helvetica,sans-serif;}
+  header, main, section, footer, aside, nav {display: block;}
+  .tel {cursor: default; text-decoration: none;}
+  .clr, .formList li {clear: both;}
+  ::placeholder {color: #030000;}
+  html {font-size: 10px;}
+  abbr {border: 0; text-decoration: none;}
+  .testimonialList > p {margin-top: 40px; padding-top: 40px; border-top: 1px solid #faf4f4;}
+  .testimonialList > .firstTestimonial {margin-top: 1em; padding-top: 0; border-top: 0;}  
+
+}
+
+@media screen {
+
+  body {font: 1.2rem/1.3 Arial,Helvetica,sans-serif; background: #fff url(images/49.jpg) fixed repeat-x bottom right; padding-bottom: 75px;}
+  html, body {height: 100%; width: 100%;}
+  body, #contact, #guarantee, #nav ul, .formList {margin: 0; padding: 0;}
+  h1 {margin-top: 0; font-size: 2rem;}
+  h2 {font-size: 1.8rem;}
+  h3 {font-size: 1.6rem;}
+
+  .flex {display: flex;}
+  .space-between {justify-content: space-between;}
+  .is-vcentered {align-items: center;}
+  .scaleImg {max-width: 100%; height: auto; margin: 0 auto; display: block;}
+  .even-cols > div {width: 47%;}
+
+  main {padding: 40px 0 100px; font-size: 1.4rem;}
+  #container, footer div, header {width: 970px; margin: 0 auto; position: relative; top: 0; left: 0;}
+  .contactbar {background: rgb(13, 54, 68);}
+  .contactbar > div {font-size: 150%; color: #fff; text-align: right; margin: 0 auto; width: 970px; padding-right: 15px;}
+  .contactbar a, footer a {color: #fff; text-decoration: none; font-weight: bold;}
+  #logo {margin: 15px 0 0;}
+  #tagline {position: absolute; line-height: 1.2; font-size: 150%; font-weight: bold; text-align: center; left: 285px; width: 465px; top: 50px;}
+  #quote {font-size: 110%; position: absolute; top: 50px; right: 15px; display: block; width: 130px; height: 35px; line-height: 35px; color: #fff; background: #3c3b3b; border-radius: 9px; text-decoration: none; text-align: center; font-weight: bold; box-shadow: 2px 2px 2px #999;}
+  #footer {position: fixed; color: #fff; bottom: 0; left: 0; font-weight: bold; width: 100%; min-height: 45px; line-height: 45px; background: rgb(13,54,68); border-top: 1px solid rgb(10, 54,68); border-bottom: 1px solid rgb(10, 54, 68);}
+  #contact {padding-left: 20px;}
+  #guarantee {padding-right: 10px; text-align: right;}
+  #mobileMenu {display: none;}
+  .mm-listitem {font-size: 16px;}
+  .mm-navbar {font-size: 16px; color: #000; text-transform: uppercase; font-weight: bold;}
+  .mm-listitem:after {inset-inline-start: 0;}
+  .mm-btn--next {background: #eee;}
+  .mm-btn--next:after {border-color: #000;}
+
+  #nav {z-index: 5000; border-top: 1px solid #9aa89f; border-bottom: 1px solid #677c6f; font-weight: bold; position: absolute; top: 115px; left: 200px; width: 770px; opacity: .9; filter: alpha(opacity=90); background: #999;}
+  #nav div {border-top: 1px solid #02250f; border-bottom: 1px solid #02250f; height: 35px; line-height: 35px;}
+  #nav ul {list-style: none; background: #999;}
+  #nav a {color: #000; text-decoration: none;}
+  #nav .current a, #nav .current {color: #fff;}
+  #nav #under {text-decoration: underline;}
+  #main {font-size: 125%;}
+  #main li {float: left; width: 100px; padding-left: 10px; text-align: center;}
+  #portfolio, #services {position: absolute; top: 38px; left: 220px; width: 110px;}
+  #services {left: 110px;}
+  #portfolio li, #services li {padding: 0 10px; line-height: 1; text-align: center; margin: 1em 0;}
+  #thumbs {padding-bottom: 30px;}
+  #contact li, #guarantee li {list-style: none; display: inline; padding-right: 20px;}
+  #guarantee li {padding: 0 0 0 20px;}
+
+  #thumbs {width: 380px; height: 365px; overflow: auto; margin-right: 30px;}
+  #thumbs td {padding: 0 0 30px 0;}
+  #thumbs img {display: block; margin-right: 30px;}
+  #featuredPhoto {width: 480px;}
+  #enlargedPhoto {display: block;}
+
+  #beforeAfter table {width: 100%;}
+  #beforeAfter td {width: 50%; vertical-align: top; text-align: center; font-weight: bold; font-size: 1.4rem; padding-bottom: 20px; padding-top: 30px; border-bottom: 1px solid #999;}
+  #beforeAfter img {display: block; margin: 0 auto 10px;}
+
+  #contactPg #formCol {background: #f1ecec; padding: 0 15px;}
+  #contactPg #formCol h2 {margin-top: 1.5rem;}
+  .curbside {font-size: 1.2rem;}
+  .imgSpace {margin-top: 4em;}
+  .formList {list-style: none; font-size: 90%;}
+  .formList label {display: block;}
+  .formList li {margin-bottom: 1.5rem;}
+  .formList span, .req {color: rgb(96, 231, 28);}
+  .formList input, .formList textarea {border: 1px solid #bbb; width: 90%;}
+  .formList .auto {width: auto; margin: 0 25px 20px 0; background: #46dd0a; color: #fff; font-size: 110%; padding: 3px 10px; cursor: pointer;}
+
+}
+
+@media screen and (max-width: 1000px) {
+  main {padding: 30px 15px 45px;}
+  #nav {display: none;}
+  #container, #footer div, .contactbar > div, header {width: auto;}
+  #tagline, #quote {position: static;}
+  #logo {width: 80px; margin-left: 15px;}
+  #logo img {width: 100%; height: auto;}
+  #quoteNav {width: 200px; text-align: right; margin-right: 20px;}
+  #tagline {width: 400px;}
+  #mobileMenu {display: inline-block;}
+  .header-wrapper {padding-bottom: 10px; box-shadow: 0 3px 2px rgba(0,0,0,0.6);}
+}
+
+@media screen and (max-width: 900px) {
+  body {background: #F9F9F9;}
+  .wrap900 {flex-wrap: wrap;}
+  .wrap900 > div {padding-bottom: 30px; width: 100%;}
+  #thumbs {width: 100%; margin-right: 0; margin-bottom: 30px; background: #eee; padding: 10px;}
+  #thumbs table {width: 100%;}
+  #thumbs tr {display: inline;}
+  #thumbs td {display: inline-block; padding-bottom: 10px;}
+  #thumbs img {margin-right: 10px;}
+  #featuredPhoto {margin: 0 auto;}
+
+}
+
+@media screen and (max-width: 800px) {
+  #tagline {width: 300px; font-size: 140%;}
+}
+
+@media screen and (max-width: 770px) {
+  #footer {line-height: 25px; padding: 10px 0;}
+  #guarantee {text-align: left;}
+  .wrap760 {flex-wrap: wrap;}
+}
+
+@media screen and (max-width: 600px) {
+  #tagline {width: 250px; font-size: 120%;}
+}
+
+@media screen and (max-width: 550px) {
+  #tagline {display: none;}
+  #footer {position: static;}
+  #footer .flex, #footer li {display: block;}
+  #quoteNav {width: 210px;}
+}
+
+@media print {
+
+  body, h1, h2, h3 {font: 12pt/1.3 georgia,serif;}
+  h1 {font-size: 20pt;}
+  h2 {font-size: 17pt;}
+  h3 {font-size: 14pt;}
+  a {color: #000;}
+  #header, #nav, #tagline, #quote, #mobileMenu {display: none;}
+  #footer {padding-top: 20pt;}
+  #logo {padding-bottom: 20pt;}
+  #footer ul {margin: 0; padding: 0;}
+  #footer li {list-style: none; display: inline; padding-right: 10px;}
+
+}
