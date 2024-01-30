@@ -1,5 +1,6 @@
 !DOCTYPE html>
 <html lang="en" dir="ltr">
+
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -8,148 +9,164 @@
   <link rel="stylesheet" href="css/mmenu.css" type="text/css" />
   <link rel="stylesheet" href="css/core2023.css" type="text/css" />
 
- <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-NWTBHV5');</script>
+  <!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-NWTBHV5');</script>
   <!-- End Google Tag Manager -->
 </head>
+
 <body>
 
-<div id="page">
+  <div id="page">
 
-  <div class="contactbar">
-    <div>
-      <a class="tel" href="tel:7343531390">734-353-1390</a><br /><a href="solislawncare2@gmail.com">solislawncare2@gmail.com</a>
+    <div class="contactbar">
+      <div>
+        <a class="tel" href="tel:7343531390">734-353-1390</a><br /><a
+          href="solislawncare2@gmail.com">solislawncare2@gmail.com</a>
+      </div>
     </div>
-  </div>
 
-  <div class="header-wrapper">
+    <div class="header-wrapper">
 
-    <header>
-      <div class="flex space-between three-col is-vcentered">
-        <div id="logo">
-          <a href="index.html"><img class="scaleImg" src="images/32.png" alt="Solis Lawn Care and Snow Removal" width="133" height="144" /></a>
+      <header>
+        <div class="flex space-between three-col is-vcentered">
+          <div id="logo">
+            <a href="index.html"><img class="scaleImg" src="images/32.png" alt="Solis Lawn Care and Snow Removal"
+                width="133" height="144" /></a>
+          </div>
+          <div id="tagline">Serving Ann Arbor & Near by Areas </div>
+          <div id="quoteNav" class="flex space-between is-vcentered">
+            <a id="quote" href="contact-us.html">Request a Quote</a>
+            <a id="mobileMenu" href="#menu"><img src="images/menu .png" alt="Navigation Menu" width="35"
+                height="28" /></a>
+          </div>
         </div>
-        <div id="tagline">Serving Ann Arbor & Near by Areas </div>
-        <div id="quoteNav" class="flex space-between is-vcentered">
-          <a id="quote" href="contact-us.html">Request a Quote</a>
-          <a id="mobileMenu" href="#menu"><img src="images/menu .png" alt="Navigation Menu" width="35" height="28" /></a>
+
+        <nav id="nav" aria-label="Primary navigation">
+          <div>
+            <ul id="main">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="portfolio.html">Portfolio</a></li>
+              <li><a href="about-us.html">About Us</a></li>
+              <li class="current"><a>Contact Us</a></li>
+              <li><a href="testimonials.html">Testimonials</a></li>
+              <li><a href="specials.html">Special</a></li>
+            </ul>
+            <ul id="services">
+              <li><a href="lawn-maintenance.html">Lawn Maintenance</a></li>
+              <li><a href="landscape.html">Landscape</a></li>
+              <li><a href="hardscape.html">Hardscape</a></li>
+              <li><a href="other-services.html">Other Services</a></li>
+              <li><a href="snow-removal.html">Snow Removal</a></li>
+            </ul>
+            <ul id="portfolio">
+              <li><a href="portfolio.html">Photo Gallery</a></li>
+              <li><a href="before-after.html">Before and After</a></li>
+            </ul>
+          </div>
+        </nav>
+
+      </header>
+
+    </div>
+
+    <main id="container">
+
+      <div id="contactPg" class="flex space-between even-cols wrap900">
+
+        <div id="textCol">
+
+          <h1>Contact Us</h1>
+
+          <p>Solis Lawn care And Snow Removal..<br />
+            5229 West Michigan Ave. Ypsilanti,MI,48197 </p>
+
+          <p>Phone: <a class="tel" href="tel:7343531390">734-353-1390</a></p>
+
+          <p>Email: <a href="mailto:solislawncare2@gmail.com">solislawncare2@gmail.com</a></p>
+
+          <p class="imgSpace"><img src="images/24.jpg" width="344" height="258" alt="Solis Lawn Care" /></p>
+
         </div>
+
+        <div id="formCol">
+
+
+          <form action="contact.php" method="post" id="quoteForm">
+            <div>
+              <h2>Request Information or Bid</h2>
+              <p><em>Note: <span class="req">*</span> indicates a required field</em></p>
+              <ul class="formList">
+                <li><label for="cf1">First Name:<span>*</span></label>
+                  <input type="text" name="fname" id="cf1" size="30" />
+                </li>
+                <li><label for="cf2">Last Name:<span>*</span></label>
+                  <input type="text" name="lname" id="cf2" size="30" />
+                </li>
+                <li><label for="cf3">Email Address:<span>*</span></label>
+                  <input type="text" name="em" id="cf3" size="30" />
+                </li>
+                <li><label for="cf4">Street:</label>
+                  <input type="text" name="street" id="cf4" size="30" />
+                </li>
+                <li><label for="cf5">Suite, Unit, <abbr title="Apartment">Apt</abbr>:</label>
+                  <input type="text" name="suite" id="cf5" size="30" />
+                </li>
+                <li><label for="cf6">City:</label>
+                  <input type="text" name="city" id="cf6" size="20" />
+                </li>
+                <li><label for="cf7">State:</label>
+                  <input type="text" name="state" id="cf7" size="10" />
+                </li>
+                <li><label for="cf8">Zip Code:</label>
+                  <input type="text" name="zip" id="cf8" size="15" />
+                </li>
+                <li><label for="cf9">Daytime Phone:</label>
+                  <input type="text" name="dphone" id="cf9" size="30" />
+                </li>
+                <li><label for="cf10">Alternate Phone:</label>
+                  <input type="text" name="aphone" id="cf10" size="30" />
+                </li>
+                <li><label for="cf11">Description of work or services needed:</label>
+                  <textarea rows="4" cols="30" name="desc" id="cf11"></textarea>
+                  <input type="hidden" name="submitted" value="y" />
+                </li>
+                <li id="submitHldr"></li>
+              </ul>
+            </div>
+          </form>
+
+        </div>
+
       </div>
 
-      <nav id="nav" aria-label="Primary navigation">
-        <div>
-          <ul id="main">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="about-us.html">About Us</a></li>
-            <li class="current"><a>Contact Us</a></li>
-            <li><a href="testimonials.html">Testimonials</a></li>
-            <li><a href="specials.html">Special</a></li>
-          </ul>
-          <ul id="services">
-            <li><a href="lawn-maintenance.html">Lawn Maintenance</a></li>
-            <li><a href="landscape.html">Landscape</a></li>
-            <li><a href="hardscape.html">Hardscape</a></li>
-            <li><a href="other-services.html">Other Services</a></li>
-            <li><a href="snow-removal.html">Snow Removal</a></li>
-          </ul>
-          <ul id="portfolio">
-            <li><a href="portfolio.html">Photo Gallery</a></li>
-            <li><a href="before-after.html">Before and After</a></li>
-          </ul>
-        </div>
-      </nav>
+    </main>
 
-    </header>
-
-  </div>
-
-  <main id="container">
- 
-    <div id="contactPg" class="flex space-between even-cols wrap900">
-
-      <div id="textCol">
-
-        <h1>Contact Us</h1>
-
-        <p>Solis Lawn care And Snow Removal..<br />
-        5229 West Michigan Ave. Ypsilanti,MI,48197 </p>
-
-        <p>Phone: <a class="tel" href="tel:7343531390">734-353-1390</a></p>
-
-        <p>Email: <a href="mailto:solislawncare2@gmail.com">solislawncare2@gmail.com</a></p>
-
-        <p class="imgSpace"><img src="images/24.jpg" width="344" height="258" alt="Solis Lawn Care" /></p>
-
-      </div>
-
-      <div id="formCol">
-
-        <form action="contact.php" method="post" id="quoteForm"><div>
-        <h2>Request Information or Bid</h2>
-        <p><em>Note: <span class="req">*</span> indicates a required field</em></p>
-        <ul class="formList">
-          <li><label for="cf1">First Name:<span>*</span></label>
-              <input type="text" name="fname" id="cf1" size="30" />
-          </li>
-          <li><label for="cf2">Last Name:<span>*</span></label>
-              <input type="text" name="lname" id="cf2" size="30" />
-          </li>
-          <li><label for="cf3">Email Address:<span>*</span></label>
-              <input type="text" name="em" id="cf3" size="30" />
-          </li>
-          <li><label for="cf4">Street:</label>
-              <input type="text" name="street" id="cf4" size="30" />
-        
-          <li><label for="cf6">City:</label>
-              <input type="text" name="city" id="cf6" size="20" />
-          </li>
-          <li><label for="cf7">State:</label>
-              <input type="text" name="state" id="cf7" size="10" />
-          </li>
-          <li><label for="cf8">Zip Code:</label>
-              <input type="text" name="zip" id="cf8" size="15" />
-          </li>
-          <li><label for="cf9">Daytime Phone:</label>
-              <input type="text" name="dphone" id="cf9" size="30" />
-          </li>
-          <li><label for="cf11"> Services needed:</label>
-              <textarea rows="4" cols="30" name="desc" id="cf11"></textarea>
-              <input type="hidden" name="submitted" value="y" />
-          </li>
-          <li id="submitHldr"></li>
+    <footer id="footer">
+      <div class="flex space-between wrap760">
+        <ul id="contact">
+          <li>Solis Lawn Care &amp; Snow Removal.</li>
+          <li><a class="tel" href="tel:7343531390">734-353-1390</a></li>
+          <li><a href="mailto:solislawncare2@gmail.com">Solislawncare2@gmail.com</a></li>
         </ul>
-        </div></form>
-      
+        <ul id="guarantee">
+          <li>Licensed and Insured</li>
+          <li>Free Estimates</li>
+        </ul>
       </div>
+    </footer>
 
-     </div>
-
-  </main>
-
-  <footer id="footer">
-    <div class="flex space-between wrap760">
-      <ul id="contact">
-        <li>Solis Lawn Care &amp; Snow Removal.</li>
-        <li><a class="tel" href="tel:7343531390">734-353-1390</a></li>
-        <li><a href="mailto:solislawncare2@gmail.com">Solislawncare2@gmail.com</a></li>
-      </ul>
-      <ul id="guarantee">
-        <li>Licensed and Insured</li>
-        <li>Free Estimates</li>
-      </ul>
-    </div>
-  </footer>
-
-  <nav id="menu">
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="services.html">Services</a>
+    <nav id="menu">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a>
           <ul>
             <li><a href="lawn-maintenance.html">Lawn Maintenance</a></li>
             <li><a href="landscape.html">Landscape</a></li>
@@ -157,27 +174,28 @@
             <li><a href="other-services.html">Other Services</a></li>
             <li><a href="snow-removal.html">Snow Removal</a></li>
           </ul>
-      </li>
-      <li><a href="contact-us.html">Request a Quote / Contact Us</a></li>
-      <li><a href="about-us.html">About Us</a></li>
-      <li><a href="portfolio.html">Portfolio</a>
+        </li>
+        <li><a href="contact-us.html">Request a Quote / Contact Us</a></li>
+        <li><a href="about-us.html">About Us</a></li>
+        <li><a href="portfolio.html">Portfolio</a>
           <ul>
             <li><a href="portfolio.html">Photo Gallery</a></li>
             <li><a href="before-after.html">Before and After</a></li>
           </ul>
-      </li>
-      <li><a href="testimonials.html">Testimonials</a></li>
-      <li><a href="specials.html">Specials</a></li>
-    </ul>
-  </nav>
+        </li>
+        <li><a href="testimonials.html">Testimonials</a></li>
+        <li><a href="specials.html">Specials</a></li>
+      </ul>
+    </nav>
 
-</div>
+  </div>
 
-<script src="js/mmenu.js"></script>
-<script src="js/core2023.js"></script>
-<script>
+  <script src="js/mmenu.js"></script>
+  <script src="js/core2023.js"></script>
+  <script>
 
-</script>
+  </script>
 
 </body>
+
 </html>
