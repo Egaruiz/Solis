@@ -25,7 +25,7 @@ var bl = {
     this.buildMenuAssociations();
 
     for (var i=1; i<this.allLists; i++) {
-         this.lists[images].style.visibility = 'hidden';
+         this.lists[i].style.visibility = 'hidden';
     }
 
     for (i=0; i<this.allNavItems; i++) {
