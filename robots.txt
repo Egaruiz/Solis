@@ -1,4 +1,3 @@
-User-Agent: Googlebot
-Allow: 
+User-agent: * Disallow: 
 sitemap: https://solislawncarellc.com/sitemap
 sitemap: https://solislawncarellc.com/images
