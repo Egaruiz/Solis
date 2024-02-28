@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://solislawncarellc.com/sitemap.xml
+Sitemap: https://solislawncarellc.com/sitemap
 Host: https://solislawncarellc.com/
