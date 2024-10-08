@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 Allow: sitemap.xml
-Allow: sitemal.html
+Allow: sitemap.html
 
 Sitemap: https://solislawncarellc.com/sitemap.xml
 
