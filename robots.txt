@@ -4,5 +4,5 @@ Allow: /
 Allow: sitemap.xml
 Allow: sitemap.html
 
-Sitemap: https://solislawncarellc.com/sitemap.xml
+Sitemap: https://solislawncarellc.com/sitemap.html
 
