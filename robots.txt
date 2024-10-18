@@ -1,8 +1,8 @@
-User-agent: *
-Allow: /
+user-agent: *
+disallow: /downloads/
 
-Allow: sitemap.xml
-Allow: sitemap.html
+user-agent: magicsearchbot
+disallow: /uploads/
 
-Sitemap: https://solislawncarellc.com/sitemap.html
-
+sitemap: https://solislawncarellc.com/sitemap-file.xml
+sitemap: https://solislawncarellc.com/sitemap-file.html
