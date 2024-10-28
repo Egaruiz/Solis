@@ -1,5 +1,5 @@
 User-agent: *
 Disallow: 
 Disallow: /cgi-bin/
-Sitemap: https://solislawncarellc.com/html.index/sitemap.xml
-Sitemap: https://www.solislawncarellc.com/html.index/sitemap.xml
+Sitemap: https://solislawncarellc.com/sitemap.html
+
