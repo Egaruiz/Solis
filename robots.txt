@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /cgi-bin/
 Sitemap: https://solislawncarellc.com/sitemap.html
-
+sitemap: https://www.solislawncarellc.com/sitemap
