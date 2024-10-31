@@ -1,5 +1,8 @@
+User-agent: Google
+Disallow:
+
 User-agent: *
-Allow: /
-Disallow: /cgi-bin/
+Disallow: /
+
 Sitemap: https://solislawncarellc.com/sitemap.html
 sitemap: https://www.solislawncarellc.com/sitemap
