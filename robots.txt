@@ -1,6 +1,7 @@
-User-agent: Google
+User-agent: *
 Allow: /
 
-
-Sitemap: https://solislawncarellc.com/sitemap.html
+User-agent: *
+Sitemap: https://solislawncarellc.com/sitemap.xml
+Sitemap: https://solislawncarellc.com/sitemap
 sitemap: https://www.solislawncarellc.com/sitemap
