@@ -1,9 +1,7 @@
 User-agent: *
 Allow: /
-User-agent: * 
-   Disallow: /private-directory/ 
 
 User-agent: *
 Allow: /
-Sitemap: https://solislawncarellc.com/sitemap.html
-
+Sitemap: http://solislawncarellc.com/sitemap.xml
+Sitemap: http://www.solislawncarellc.com/sitemap.xml
