@@ -3,5 +3,5 @@ Allow: /
 
 User-agent: *
 Allow: /
-Sitemap: http://solislawncarellc.com/sitemap.xml
-Sitemap: http://www.solislawncarellc.com/sitemap.xml
+Sitemap: http://solislawncarellc.com/sitemap
+Sitemap: http://www.solislawncarellc.com/sitemap
