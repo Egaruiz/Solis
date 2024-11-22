@@ -1,7 +1,7 @@
 User-agent: *
-Allow: 
+Disallow: 
 
 User-agent: *
 Allow: 
 Sitemap: http://solislawncarellc.com/sitemap.html
-Sitemap: http://solislawncarellc.com/sitemap
+Sitemap: http://solislawncarellc.com/sitemap.xml
