@@ -1,4 +1,3 @@
-User-agent: *
-Disallow: 
-Disallow: /cgi-bin/
+User-agent: * 
+Crawl-Delay: 20
 Sitemap: https://solislawncarellc.com/sitemap.xml
