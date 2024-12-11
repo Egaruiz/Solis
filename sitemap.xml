@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?> 
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
 <url>
-  <loc>https://solislawncarellc.com/tel:7343531390</loc>
-  <priority>0.8</priority>
-  <changefreq>daily</changefreq>
-  <lastmod>2024-11-22</lastmod>
-</url>
-<url>
   <loc>https://solislawncarellc.com/index.html</loc>
   <priority>0.8</priority>
   <changefreq>daily</changefreq>
@@ -84,11 +78,4 @@
   <changefreq>daily</changefreq>
   <lastmod>2024-11-22</lastmod>
 </url>
-<url>
-  <loc>https://solislawncarellc.com/</loc>
-  <priority>0.8</priority>
-  <changefreq>daily</changefreq>
-  <lastmod>2024-11-22</lastmod>
-</url>
-
 </urlset>
