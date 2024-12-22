@@ -2,5 +2,5 @@ RewriteEngine On
 RewriteCond %
   {HTTP_HOST}
   www.solislawncarellc.com
-  RewriteRule (.*)
+  RewriteRule (./*)
 htps://solislawncarellc.com/$1 [R=301,L]
