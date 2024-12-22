@@ -1,6 +1,6 @@
 RewriteEngine On
 RewriteCond %
-  {HTTP_HOST}
+  {HTTPS_HOST}
   www.solislawncarellc.com
   RewriteRule (./*)
-http://solislawncarellc.com/$1 [R=301,L]
+https://solislawncarellc.com/$1 [R=301,L]
