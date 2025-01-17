@@ -1,5 +1,4 @@
 User-agent: *
-Disallow: 
-Disallow: /cgi-bin/
+Allow: /
 
 sitemap: https://solislawncarellc.com/sitemap.xml
