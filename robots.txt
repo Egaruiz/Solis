@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
-sitemap: https://solislawncarellc.com/sitemap.xml
+sitemap: https://www.solislawncarellc.com/sitemap.xml
