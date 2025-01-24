@@ -1,4 +1,8 @@
 User-agent: *
+Disallow: /folder
+Disalllow/file.html
+disawow:/image.png
 
+Allow:
 sitemap: https://www.solislawncarellc.com/siteindex.xml
 
