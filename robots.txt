@@ -3,7 +3,7 @@ Disallow: /folder
 Disallow: /image.png
 
 Allow:
-sitemap: https://www.solislawncarellc.com/sitemap.xml
+sitemap: https://www.solislawncarellc.com/siteindex.xml
 sitemap: https://www.solislawncarellc.com/index.html
 sitemap: https://www.solislawncarellc.com/contact-us.html
 sitemap: https://www.solislawncarellc.com/services.html
