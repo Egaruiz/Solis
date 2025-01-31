@@ -1,19 +1,6 @@
 User-agent: *
-Disallow: /folder
-Disallow: /image.png
+Disallow: 
+Disallow: /cgi-bin/
+Sitemap: https://www.solislawncarellc.com
 
-Allow:
-sitemap: https://www.solislawncarellc.com/siteindex.xml
-sitemap: https://www.solislawncarellc.com/index.html
-sitemap: https://www.solislawncarellc.com/contact-us.html
-sitemap: https://www.solislawncarellc.com/services.html
-sitemap: https://www.solislawncarellc.com/portfolio.html
-sitemap: https://www.solislawncarellc.com/about-us.html
-sitemap: https://www.solislawncarellc.com/testimonials.html
-sitemap: https://www.solislawncarellc.com/specials.html
-sitemap: https://www.solislawncarellc.com/lawn-maintenance.html
-sitemap: https://www.solislawncarellc.com/landscape.html
-sitemap: https://www.solislawncarellc.com/landscape.html
-sitemap: https://www.solislawncarellc.com/other-services.html
-sitemap: https://www.solislawncarellc.com/snow-removal.html
-sitemap: https://www.solislawncarellc.com/before-after.html
+  
